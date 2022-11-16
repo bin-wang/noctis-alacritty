@@ -1,0 +1,3 @@
+[submodule "noctis"]
+	path = noctis
+	url = git@github.com:liviuschera/noctis.git
