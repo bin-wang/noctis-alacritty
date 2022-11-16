@@ -1,4 +1,4 @@
-An alacritty port for the [Noctis theme](https://github.com/liviuschera/noctis).
+An alacritty port of the [Noctis theme](https://github.com/liviuschera/noctis).
 
 ## How to use
 The theme definitions are located in the [themes](themes/) folder. You can either copy the content
