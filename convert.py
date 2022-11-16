@@ -19,10 +19,10 @@ def main():
             variant_definition = json.load(f)
 
         theme = {
-            "background": variant_definition["colors"]["terminal.background"],
-            "foreground": variant_definition["colors"]["terminal.foreground"],
-            "cursor_background": variant_definition["colors"]["terminalCursor.background"],
-            "cursor_foreground": variant_definition["colors"]["terminalCursor.foreground"],
+            "background": variant_definition["colors"]["editor.background"],
+            "foreground": variant_definition["colors"]["editor.foreground"],
+            "cursor_background": variant_definition["colors"]["editor.background"],
+            "cursor_foreground": variant_definition["colors"]["editorCursor.foreground"],
             "black": variant_definition["colors"]["terminal.ansiBlack"],
             "red": variant_definition["colors"]["terminal.ansiRed"],
             "green": variant_definition["colors"]["terminal.ansiGreen"],

@@ -1,11 +1,11 @@
 colors:
   primary:
-    background: '#03191b'
+    background: '#052529'
     foreground: '#b2cacd'
 
   cursor:
-    text:   '#03191b'
-    cursor: '#b2cacd'
+    text:   '#052529'
+    cursor: '#85efff'
 
   normal:
     black:   '#324a4d'
