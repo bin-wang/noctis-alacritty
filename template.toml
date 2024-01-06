@@ -1,0 +1,27 @@
+[colors.primary]
+background = "$background"
+foreground = "$foreground"
+
+[colors.cursor]
+text = "$cursor_background"
+cursor = "$cursor_foreground"
+
+[colors.normal]
+black = "$black"
+red = "$red"
+green = "$green"
+yellow = "$yellow"
+blue = "$blue"
+magenta = "$magenta"
+cyan = "$cyan"
+white = "$white"
+
+[colors.bright]
+black = "$bright_black"
+red = "$bright_red"
+green = "$bright_green"
+yellow = "$bright_yellow"
+blue = "$bright_blue"
+magenta = "$bright_magenta"
+cyan = "$bright_cyan"
+white = "$bright_white"

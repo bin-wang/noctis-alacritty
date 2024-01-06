@@ -11,7 +11,7 @@ def main():
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
-    template = Template(open("template.yml").read())
+    template = Template(open("template.toml").read())
 
     for variant in os.listdir(NOCTIS_THEMES_DIR):
         variant_name = variant.split(".")[0]
@@ -41,7 +41,7 @@ def main():
             "bright_white": variant_definition["colors"]["terminal.ansiBrightWhite"],
         }
 
-        output_file = "noctis.yml" if variant_name == "noctis" else f"noctis-{variant_name}.yml"
+        output_file = "noctis.toml" if variant_name == "noctis" else f"noctis-{variant_name}.toml"
         with open(os.path.join(OUTPUT_DIR, output_file), "w") as f:
             f.write(template.substitute(theme))
 
